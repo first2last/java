@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Grade {
+public class grade {
 
     public static void main(String[] args) {
 
