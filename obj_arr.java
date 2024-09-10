@@ -31,8 +31,14 @@ public class obj_arr {
         stu[2] = s3;
 
         // Loop through the array and print the name and marks of each student
-        for (int i = 0; i < stu.length; i++) {
-            System.out.println(stu[i].name + " : " + stu[i].marks);
-        }
+    //     for (int i = 0; i < stu.length; i++) {
+    //         System.out.println(stu[i].name + " : " + stu[i].marks);
+    //     }
+    // }
+
+    for(student stud : stu){
+        System.out.println(stud.name + " : " + stud.marks);
     }
+
+}
 }
